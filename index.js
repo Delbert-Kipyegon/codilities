@@ -8,7 +8,7 @@ function runTest(testNumber, message, K, expected) {
     console.log(`Test ${testNumber}: ${passed ? 'PASSED' : 'FAILED'}`);
     if (!passed) {
       console.log(`  Message: "${message}"`);
-      console.log(`  K: ${K}`);
+      console.log(`  K is : ${K}`);
       console.log(`  Expected: "${expected}"`);
       console.log(`  Got: "${result}"`);
       console.log(`  Expected length: ${expected.length}, Got length: ${result.length}`);
